@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="AppBrightBanner"
+     ProductID="{ce9460fd-2750-4d48-a32c-0498620550ca}"
+     Version="1.2.0.0"
+     SharePointMinVersion="15.0.0.0" 
+>
+  <Properties>
+    
+    <Title>Bright Banner</Title>
+    
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <SupportedLocales>
+      <SupportedLocale CultureName="en-us" />
+    </SupportedLocales>
+    <SupportedLanguages>en-us</SupportedLanguages>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+
+</App>

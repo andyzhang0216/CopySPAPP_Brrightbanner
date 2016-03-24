@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="BannerImages.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="BannerList.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Help.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="load.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="IFrameSettings.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="PreviewAndEmbed.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="EmbedCode.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="PreviewAndEmbedHelp.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="EmbidCodepage.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="BannerListHelp.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="PublishContent.png" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

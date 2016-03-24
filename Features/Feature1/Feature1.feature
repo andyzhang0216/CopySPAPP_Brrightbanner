@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="87cdd87e-0adc-40ab-a473-b72af26671ec" featureId="87cdd87e-0adc-40ab-a473-b72af26671ec" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="AppBrightBanner Feature1" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

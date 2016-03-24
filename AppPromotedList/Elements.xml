@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="AppPromotedList" OnQuickLaunch="TRUE" Id="" TemplateType="170" FeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" Url="Lists/AppPromotedList" Description="Bright App Promoted Links">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Getting Started</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/Help.png</Field>
+          <Field Name="Description">How to add app part to your sharepoint site page</Field>
+          <Field Name="LinkLocation" >~site/pages/Help.aspx</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Banner Slides List</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/BannerList.png</Field>
+          <Field Name="Description">You can add bannar slides here</Field>
+          <Field Name="LinkLocation" >~site/Lists/Banner</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Banner Images Library</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/BannerImages.png</Field>
+          <Field Name="Description">This Library contains the banner images</Field>
+          <Field Name="LinkLocation" >~site/Lists/BannerImagesLibrary</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Preview and Embed</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/previewandembed.png</Field>
+          <Field Name="Description">preview, test and embed the banner</Field>
+          <Field Name="LinkLocation" >~site/pages/preview.aspx</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

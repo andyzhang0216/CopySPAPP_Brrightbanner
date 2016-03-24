@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="BannerAppPart" Title="Bright Banner App" Description="Bright Banner to view news and events" DefaultWidth="618" DefaultHeight="246" >
+    <Content Type="html" Src="~appWebUrl/Pages/BannerAppPart.aspx?{StandardTokens}&amp;ASpeed=_ASpeed_&amp;PauseTime=_PauseTime_&amp;Effect=_Effect_&amp;ThemeColor=_ThemeColor_"  />
+    <Properties>
+      <Property Name="ASpeed" Type="int" WebBrowsable="true" WebDisplayName="Animation speed" WebDescription="Please enter the animation speed" WebCategory="Effects" DefaultValue="500" RequiresDesignerPermission="true" />
+      <Property Name="PauseTime" Type="int" WebBrowsable="true" WebDisplayName="Pause Time" WebDescription="Please enter the pause time" WebCategory="Effects" DefaultValue="4000" RequiresDesignerPermission="true" />
+      <Property Name="Effect" Type="enum" WebBrowsable="true" WebDisplayName="Effect" WebDescription="Please Choose the view effect" WebCategory="Effects" DefaultValue="random" RequiresDesignerPermission="true">
+        <EnumItems>
+          <EnumItem WebDisplayName="Random" Value="random"/>
+          <EnumItem WebDisplayName="Slice Down Right" Value="sliceDownRight"/>
+          <EnumItem WebDisplayName="Slice Down Left" Value="sliceDownLeft"/>
+          <EnumItem WebDisplayName="Slice Up Right" Value="sliceUpRight"/>
+          <EnumItem WebDisplayName="Slice Up Left" Value="sliceUpLeft"/>
+          <EnumItem WebDisplayName="Slice Up Down" Value="sliceUpDown"/>
+          <EnumItem WebDisplayName="Slice Up Down Left" Value="sliceUpDownLeft"/>
+          <EnumItem WebDisplayName="Fold" Value="fold"/>
+          <EnumItem WebDisplayName="Fade" Value="fade"/>
+          <EnumItem WebDisplayName="Box Random" Value="boxRandom"/>
+          <EnumItem WebDisplayName="Box Rain" Value="boxRain"/>
+          <EnumItem WebDisplayName="Box Rain Reverse" Value="boxRainReverse"/>
+          <EnumItem WebDisplayName="Box Rain Grow" Value="boxRainGrow"/>
+          <EnumItem WebDisplayName="Box Rain Grow Reverse" Value="boxRainGrowReverse"/>
+        </EnumItems>
+      </Property>
+      <Property Name="ThemeColor" Type="string" WebBrowsable="true" WebDisplayName="Theme Color" WebDescription="Please Choose the theme color" WebCategory="Effects" DefaultValue="rgba(0, 114, 198, 0.5)" RequiresDesignerPermission="true" />
+    </Properties>
+  </ClientWebPart>
+</Elements>

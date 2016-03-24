@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="BannerImagesModule" Url="Lists/BannerImagesLibrary">
+    <File Path="BannerImagesModule\walle.jpg" Url="walle.jpg"  Type="GhostableInLibrary"/>
+    <File Path="BannerImagesModule\nemo.jpg" Url="nemo.jpg" Type="GhostableInLibrary"/>
+    <File Path="BannerImagesModule\toystory.jpg" Url="toystory.jpg" Type="GhostableInLibrary"/>
+    <File Path="BannerImagesModule\Myblog.png" Url="Myblog.png" Type="GhostableInLibrary"/>
+    <File Path="BannerImagesModule\MuShannak.png" Url="MuShannak.png" Type="GhostableInLibrary"/>
+    <File Path="BannerImagesModule\linkedIn.png" Url="linkedIn.png" Type="GhostableInLibrary"/>
+  </Module>
+</Elements>

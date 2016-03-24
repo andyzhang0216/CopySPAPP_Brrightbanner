@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Banner" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/Banner" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="URL">http://www.imdb.com/title/tt0266543/</Field>
+          <Field Name="Notes">After his son is captured in the Great Barrier Reef and taken to Sydney ...</Field>
+          <Field Name="Image">~site/Lists/BannerImagesLibrary/nemo.jpg</Field>
+          <Field Name="Active">true</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="URL">http://www.imdb.com/title/tt0114709/</Field>
+          <Field Name="Notes">A cowboy doll is profoundly threatened and jealous when a new ...</Field>
+          <Field Name="Image">~site/Lists/BannerImagesLibrary/toystory.jpg</Field>
+          <Field Name="Active">true</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="URL">http://mushannak.blogspot.ae</Field>
+          <Field Name="Notes">Muawiyah Shannak Blog</Field>
+          <Field Name="Image">~site/Lists/BannerImagesLibrary/Myblog.png</Field>
+          <Field Name="Active">true</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="URL">https://twitter.com/MuShannak</Field>
+          <Field Name="Notes">Muawiyah Shannak twitter</Field>
+          <Field Name="Image">~site/Lists/BannerImagesLibrary/MuShannak.png</Field>
+          <Field Name="Active">true</Field>
+          <Field Name="Order">4</Field>
+        </Row>
+        <Row>
+          <Field Name="URL">http://ae.linkedin.com/in/shannak</Field>
+          <Field Name="Notes">Muawiyah Shannak LinkedIn</Field>
+          <Field Name="Image">~site/Lists/BannerImagesLibrary/linkedIn.png</Field>
+          <Field Name="Active">true</Field>
+          <Field Name="Order">5</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

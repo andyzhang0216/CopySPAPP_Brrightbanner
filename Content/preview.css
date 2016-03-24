@@ -1,0 +1,91 @@
+﻿html, body, #contentRow, #contentBox, #DeltaPlaceHolderMain, #s4-bodyContainer, #s4-workspace {
+    height: 100%;
+    min-height: 100%;
+}
+
+.dd-preview {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+    .dd-preview > div {
+        width: 100%;
+    }
+
+    .dd-preview #embidForm > div {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #666666;
+    }
+
+
+        .dd-preview #embidForm > div .dd-controls {
+            width: 50%;
+            float: left;
+        }
+
+        .dd-preview #embidForm > div .dd-embidcode {
+            width: 50%;
+            float: left;
+        }
+
+            .dd-preview #embidForm > div .dd-embidcode > span {
+                display: block;
+            }
+
+        .dd-preview #embidForm > div p > span {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+        }
+
+    .dd-preview #embidForm input[type='text'] {
+        padding: 2px 5px 2px 8px;
+        width: 140px;
+    }
+
+    .dd-preview #embidForm select {
+        padding: 2px 5px 2px 8px;
+        width: 155px;
+    }
+
+    .dd-preview .dd-preview-area {
+        height: 100%;
+    }
+
+        .dd-preview .dd-preview-area > div {
+            padding: 10px;
+            margin: 10px;
+            border: 1px dashed #666666;
+            height: 100%;
+            min-height: 100%;
+        }
+
+
+
+#txtEmbid {
+    width: 90%;
+    height: 150px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}

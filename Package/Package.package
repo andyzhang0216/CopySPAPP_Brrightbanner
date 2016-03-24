@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="90e7cb7a-3a60-454d-8c66-229d770d7692" solutionId="90e7cb7a-3a60-454d-8c66-229d770d7692" resetWebServer="false" sharePointProductVersion="15.0" name="AppBrightBanner" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ff10cf24-7fd7-4933-b4de-4261afd421e3" />
+    <featureReference itemId="86e8f510-b531-41a3-add6-2ade2af7b92a" />
+  </features>
+</package>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\jquery-1.7.1.min.js" Url="Scripts/jquery-1.7.1.min.js" />
+    <File Path="Scripts\Resources\Resources.js" Url="Scripts/Resources/Resources.js" />
+    <File Path="Scripts\Resources\Resources.en-us.js" Url="Scripts/Resources/Resources.en-us.js" />
+    <File Path="Scripts\BannerAppPart.js" Url="Scripts/BannerAppPart.js" />
+    <File Path="Scripts\Resources\Resources.ar-sa.js" Url="Scripts/Resources/Resources.ar-sa.js" />
+    <File Path="Scripts\Update.js" Url="Scripts/Update.js" />
+    <File Path="Scripts\handlebars.js" Url="Scripts/handlebars.js" />
+    <File Path="Scripts\jquery.nivo.slider.pack.js" Url="Scripts/jquery.nivo.slider.pack.js" />
+    <File Path="Scripts\preview.js" Url="Scripts/preview.js" />
+  </Module>
+</Elements>

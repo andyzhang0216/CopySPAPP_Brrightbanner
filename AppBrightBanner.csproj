@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3441E703-22E5-46AA-96DD-CCBD3E48DA0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppBrightBanner</RootNamespace>
+    <AssemblyName>AppBrightBanner</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{75715882-5cbb-4210-833a-573c86f346c3}</AppFeaturePartId>
+    <WspPartId>{319d2069-15e5-4599-873c-48abfaada59d}</WspPartId>
+    <CspkgPartId>{0146f3bd-c3c6-47e5-9f56-6e10c9bf854e}</CspkgPartId>
+    <SqlPackagePartId>{a27a6011-5dbc-4fa9-931f-fd7956d505a8}</SqlPackagePartId>
+    <ActivePublishProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="AppPromotedList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{28616587-0be1-4a9e-977d-ae9b9baa8525}</SharePointProjectItemId>
+    </None>
+    <None Include="BannerAppPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2cbf1270-00c6-4a7e-bc04-fb7a4b03eab3}</SharePointProjectItemId>
+    </None>
+    <None Include="BannerImages\BannerImagesModule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d66fc54c-9893-497d-8815-56886b2c099c}</SharePointProjectItemId>
+    </None>
+    <None Include="BannerImages\BannerImagesLibrary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fca1edc7-496e-438d-8ba3-c3aacaf78cd8}</SharePointProjectItemId>
+    </None>
+    <None Include="Banner\BannerInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8a91e3bc-b86f-43bf-b464-cb1e85c797ea}</SharePointProjectItemId>
+    </None>
+    <None Include="Banner\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ece79eb7-eac8-464b-b0c3-08a0263198b9}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{86e8f510-b531-41a3-add6-2ade2af7b92a}</FeatureId>
+    </None>
+    <None Include="JSCompiledFiles\JSCompiledFilesModule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5ca9fd14-7ccc-4139-996e-560583be430a}</SharePointProjectItemId>
+    </None>
+    <None Include="JSCompiledFiles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cced43f7-9e6f-4481-b784-0bce30412430}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ce9460fd-2750-4d48-a32c-0498620550ca}</SharePointProjectItemId>
+    </None>
+    <Content Include="AppPromotedList\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="BannerAppPart\Elements.xml">
+      <SubType>ParentWebElementManifest</SubType>
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="BannerImages\BannerImagesModule\Elements.xml" />
+    <Content Include="BannerImages\BannerImagesModule\linkedIn.png" />
+    <Content Include="BannerImages\BannerImagesModule\MuShannak.png" />
+    <Content Include="BannerImages\BannerImagesModule\Myblog.png" />
+    <Content Include="BannerImages\BannerImagesModule\nemo.jpg" />
+    <Content Include="BannerImages\BannerImagesModule\toystory.jpg" />
+    <Content Include="BannerImages\BannerImagesModule\walle.jpg" />
+    <Content Include="BannerImages\BannerImagesLibrary\Elements.xml" />
+    <Content Include="Banner\BannerInstance\Elements.xml" />
+    <Content Include="Banner\Elements.xml" />
+    <Content Include="Banner\Schema.xml" />
+    <Content Include="Content\help.css" />
+    <Content Include="Content\license.txt" />
+    <Content Include="Content\nivo-slider.css" />
+    <Content Include="Content\preview.css" />
+    <Content Include="Content\themes\bar\arrows.png" />
+    <Content Include="Content\themes\bar\style.css" />
+    <Content Include="Content\themes\bar\bullets.png" />
+    <Content Include="Content\themes\bar\loading.gif" />
+    <Content Include="Content\themes\box\arrows.png" />
+    <Content Include="Content\themes\box\bullets.png" />
+    <Content Include="Content\themes\box\style.css" />
+    <Content Include="Content\themes\box\loading.gif" />
+    <Content Include="Content\themes\default\arrows.png" />
+    <Content Include="Content\themes\default\bullets.png" />
+    <Content Include="Content\themes\default\style.css" />
+    <Content Include="Content\themes\default\loading.gif" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\BannerImages.png" />
+    <Content Include="Images\BannerList.png" />
+    <Content Include="Images\BannerListHelp.png" />
+    <Content Include="Images\EmbedCode.png" />
+    <Content Include="Images\EmbidCodepage.png" />
+    <Content Include="Images\IFrameSettings.png" />
+    <Content Include="Images\load.gif" />
+    <Content Include="Images\Help.png" />
+    <Content Include="Images\PreviewAndEmbed.png" />
+    <Content Include="Images\PreviewAndEmbedHelp.png" />
+    <Content Include="Images\PublishContent.png" />
+    <Content Include="JSCompiledFiles\Elements.xml" />
+    <Content Include="JSCompiledFiles\JSCompiledFilesModule\content.js" />
+    <Content Include="JSCompiledFiles\JSCompiledFilesModule\Elements.xml" />
+    <Content Include="Pages\BannerAppPart.aspx" />
+    <Content Include="Pages\Preview.aspx" />
+    <Content Include="Pages\Update.aspx" />
+    <Content Include="Pages\Help.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a27a6011-5dbc-4fa9-931f-fd7956d505a8}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\BannerAppPart.js" />
+    <Content Include="Scripts\preview.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\handlebars.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="JSCompiledFiles\JSCompiledFilesModule\publish.js" />
+    <Content Include="Scripts\jquery.nivo.slider.pack.js" />
+    <Content Include="Scripts\Resources\Resources.ar-sa.js" />
+    <Content Include="Scripts\Resources\Resources.en-us.js" />
+    <Content Include="Scripts\Resources\Resources.js" />
+    <Content Include="Scripts\update.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7e9d6031-e15b-435e-95e5-8f06fd810161}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\default.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{773d8eb5-0e6b-4920-a43d-9bf8fa20d252}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{90e7cb7a-3a60-454d-8c66-229d770d7692}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\AppBrightBanner\AppBrightBanner.feature">
+      <FeatureId>{ff10cf24-7fd7-4933-b4de-4261afd421e3}</FeatureId>
+    </None>
+    <None Include="Features\AppBrightBanner\AppBrightBanner.Template.xml">
+      <DependentUpon>AppBrightBanner.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

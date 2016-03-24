@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\BannerImages.png" Url="Images/BannerImages.png" />
+    <File Path="Images\BannerList.png" Url="Images/BannerList.png" />
+    <File Path="Images\Help.png" Url="Images/Help.png" />
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" />
+    <File Path="Images\load.gif" Url="Images/load.gif" />
+    <File Path="Images\IFrameSettings.png" Url="Images/IFrameSettings.png" />
+    <File Path="Images\PreviewAndEmbed.png" Url="Images/PreviewAndEmbed.png" />
+    <File Path="Images\EmbedCode.png" Url="Images/EmbedCode.png" />
+    <File Path="Images\PreviewAndEmbedHelp.png" Url="Images/PreviewAndEmbedHelp.png" />
+    <File Path="Images\EmbidCodepage.png" Url="Images/EmbidCodepage.png" />
+    <File Path="Images\BannerListHelp.png" Url="Images/BannerListHelp.png" />
+    <File Path="Images\PublishContent.png" Url="Images/PublishContent.png" />
+  </Module>
+</Elements>

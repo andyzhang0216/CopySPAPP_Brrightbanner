@@ -1,0 +1,63 @@
+﻿ .ms-app-titlerowBorder,
+        #s4-ribbonrow {
+            display: none !important;
+        }
+
+        .bb-main {
+            width: 100%;
+        }
+
+        .bb-header small
+        {
+             font-size: 13px;
+        }
+
+        .bb-content > .bb-manage {
+            width: 52%;
+            float: left;
+        }
+
+        .bb-manage p {
+            padding-left: 5px;
+            width: 630px;
+            text-align: justify;
+        }
+
+        .bb-Publish {
+            background-color: rgb(242, 239, 239);
+            border-left: 3px solid rgb(0, 114, 198);
+            width: 44%;
+            float: left;
+            margin-top: 71px;
+            height: 150px;
+        }
+
+        .bb-Publish > div {
+                margin: 0 auto;
+                text-align: center;
+                width: 100%;
+            }
+
+        #publishMessageHoldear {
+            font-size: 18px;
+        }
+
+            #publishMessageHoldear span.prct {
+                font-size: 28px;
+            }
+
+            #publishMessageHoldear span.light {
+                color: #666666;
+                font-size: 22px;
+            }
+
+        #btnPublish {
+            padding: 15px 41px;
+            font-size: 15px;
+        }
+
+        #imgLoading {
+            display: none;
+            padding-top: 5px;
+            padding-left:10px;
+        }

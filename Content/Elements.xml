@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\default.css" Url="Content/default.css" />
+    <File Path="Content\themes\bar\arrows.png" Url="Content/themes/bar/arrows.png" />
+    <File Path="Content\themes\bar\style.css" Url="Content/themes/bar/style.css" />
+    <File Path="Content\themes\bar\bullets.png" Url="Content/themes/bar/bullets.png" />
+    <File Path="Content\themes\bar\loading.gif" Url="Content/themes/bar/loading.gif" />
+    <File Path="Content\themes\box\arrows.png" Url="Content/themes/box/arrows.png" />
+    <File Path="Content\themes\box\bullets.png" Url="Content/themes/box/bullets.png" />
+    <File Path="Content\themes\box\style.css" Url="Content/themes/box/style.css" />
+    <File Path="Content\themes\box\loading.gif" Url="Content/themes/box/loading.gif" />
+    <File Path="Content\themes\default\arrows.png" Url="Content/themes/default/arrows.png" />
+    <File Path="Content\themes\default\bullets.png" Url="Content/themes/default/bullets.png" />
+    <File Path="Content\themes\default\style.css" Url="Content/themes/default/style.css" />
+    <File Path="Content\themes\default\loading.gif" Url="Content/themes/default/loading.gif" />
+    <File Path="Content\license.txt" Url="Content/license.txt" />
+    <File Path="Content\nivo-slider.css" Url="Content/nivo-slider.css" />
+    <File Path="Content\preview.css" Url="Content/preview.css" />
+    <File Path="Content\help.css" Url="Content/help.css" />
+  </Module>
+</Elements>
